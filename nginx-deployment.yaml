@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: test-app-container
-        image: nginx:1.21.5
+        image: us-east1-docker.pkg.dev/stable3j56ju7/codenest/nginx:1.21.5
         ports:
         - containerPort: 80
